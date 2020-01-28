@@ -14,6 +14,10 @@ html, body {
 .navbar-nav li {
     padding-right: 20px;
 }
+.logo2 {
+    max-height: 100%;
+    max-width: 50%;
+}
 
 .nav-link {
     font-size: 1.1em !important;
@@ -45,13 +49,13 @@ html, body {
 }
 
 .btn-primary {
-    background-color: #6648b1;
-    border: 1px solid #6648b1;
+    background-color:#198258;
+    border: 1px solid #198258;
 }
 
 .btn-primary:hover {
-    background-color:  #563d7c;
-    border: 1px solid #563d7c;
+    background-color:  #2B7851;
+    border: 1px solid #2B7851;
 }
 
 .jumbotron {
@@ -77,15 +81,15 @@ html, body {
 }
 
 .fa-drumstick-bite {
-    color:#e54d26;
+    color:#DB5F22;
 }
 
 .fa-seedling {
-    color: #563d7c;
+    color: #129915;
 }
 
 .fa-cookie {
-    color: #2163af;
+    color: #572400;
 }
 
 .fa-drumstick-bite, .fa-seedling, .fa-cookie {
@@ -142,4 +146,71 @@ hr.light-100 {
     width: 100%;
      margin-top: .8rem;
     margin-bottom: 1rem;
+}
+
+/*---Media Queries---*/
+
+@media (max-width: 992px) {
+.social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+.carousel-caption {
+    top: 45%;
+}
+
+.carousel-caption h1 {
+    font-size: 350%;
+}
+
+.carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+}
+.display-4 {
+    font-size: 200%;
+}
+.social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+}
+
+}
+
+@media (max-width: 576px) {
+.carousel-caption {
+    top: 40%;
+}
+
+.carousel-caption h1 {
+    font-size: 250%;
+}
+
+.carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;    
+}
+.carousel-indicators {
+    display: none;
+}
+.display-4 {
+    font-size: 160%;
+}
+.social a {
+        font-size: 2em;
+        padding: .7rem;
+}
 }
